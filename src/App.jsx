@@ -24,7 +24,7 @@ import AdminBuyerDetails from './pages/admin/AdminBuyerDetails';
 
 function App() {
   return (
-    <Router basename="/task-list/">
+    <Router basename="/kisan-market">
       <Routes>
         {/* Redirect root to farmer auth for demonstration */}
         <Route path="/" element={<Navigate to="/farmer/auth" replace />} />
